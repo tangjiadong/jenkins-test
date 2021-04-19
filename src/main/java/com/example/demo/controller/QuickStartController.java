@@ -13,6 +13,7 @@ public class QuickStartController {
     @RequestMapping("/quick")
     @ResponseBody
     public String quick(){
+        System.out.println("quick方法执行");
         return "jenkins-springboot项目测试成功!";
     }
 
