@@ -13,7 +13,7 @@ public class QuickStartController {
     @RequestMapping("/quick")
     @ResponseBody
     public String quick(){
-        return "springboot 访问成功!";
+        return "jenkins-springboot项目测试成功!";
     }
 
 }
