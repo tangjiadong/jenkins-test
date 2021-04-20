@@ -14,7 +14,7 @@ public class QuickStartController {
     @ResponseBody
     public String quick(){
         System.out.println("quick方法执行");
-        return "jenkins-springboot项目测试成功!";
+        return "jenkins-springboot项目运行成功!";
     }
 
 }
